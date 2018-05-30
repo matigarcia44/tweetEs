@@ -1,1 +1,1 @@
-worker: python luckyBoth.py
+web: python luckyBoth.py
