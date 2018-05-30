@@ -86,7 +86,7 @@ def getContestTweets():
     newTweets = []
     numQueries = 0
 
-    logger.info("Searching for new contest tweets...\n")
+    logger.info("Buscando Nuevos tweets ...\n")
     # Keep querying tweets every second until 10 are found. Only 10 tweets
     # will be tweeted per 15 minutes to allow for tweeting around the clock
     # (Number of tweets per day are limited to 1000, using this methods
